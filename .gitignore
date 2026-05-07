@@ -1,0 +1,41 @@
+# 模型文件夹 - 不提交到版本控制
+models/bge-small-zh-v1.5/
+models/bge-small-en-v1.5/
+models/jina-embeddings-v2-base-code/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+venv/
+.env/
+.venv/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# 日志文件
+*.log
+
+# 向量数据库
+references/db/embeddings/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# 临时文件
+tmp/
+*.tmp
+
+# 编辑器配置
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
