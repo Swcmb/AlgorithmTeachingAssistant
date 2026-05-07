@@ -1,0 +1,28 @@
+{
+  "name": "algorithm-teaching-assistant",
+  "version": "3.0.0",
+  "description": "ACM/ICPC竞赛算法教学助手，基于本地RAG知识库提供精准的算法知识检索和苏格拉底式教学指导",
+  "main": "SKILL.md",
+  "scripts": {
+    "build": "npm run package",
+    "package": "mkdir -p dist && cp -r SKILL.md scripts/ references/ dist/ && cd dist && zip -r ../algorithm-teaching-assistant.skill .",
+    "clean": "rm -rf dist *.skill"
+  },
+  "keywords": [
+    "algorithm",
+    "ACM",
+    "ICPC",
+    "AI",
+    "Skill",
+    "RAG",
+    "teaching"
+  ],
+  "author": "AlgorithmTeachingAssistant",
+  "license": "MIT",
+  "files": [
+    "SKILL.md",
+    "scripts/",
+    "references/db/",
+    "scripts/requirements.txt"
+  ]
+}

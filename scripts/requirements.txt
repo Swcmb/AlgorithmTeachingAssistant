@@ -1,0 +1,10 @@
+# AlgorithmTeachingAssistant 依赖清单
+
+# 向量数据库
+chromadb>=0.4.24
+
+# 可选：高级嵌入模型
+sentence-transformers>=2.7.0
+
+# 可选：中文分词
+jieba>=0.42.1
