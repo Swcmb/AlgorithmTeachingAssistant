@@ -319,7 +319,7 @@ jobs:
 
 ## 许可证
 
-[MIT License](License)
+[MIT License](LICENSE)
 
 ## 贡献
 
